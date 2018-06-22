@@ -1,0 +1,32 @@
+{
+  "name": "apiwotd",
+  "version": "1.0.0",
+  "description": "rest api to get word of the day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pm777/WOTD.git"
+  },
+  "keywords": [
+    "wotd"
+  ],
+  "author": "Pushpak Mhatre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pm777/WOTD/issues"
+  },
+  "homepage": "https://github.com/pm777/WOTD#readme",
+  "devDependencies": {
+    "nodemo": "^1.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.6",
+    "node-datetime": "^2.0.6"
+  }
+}
