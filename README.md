@@ -22,14 +22,15 @@ How to run it:
 Testing via Postman:
 1.Open your postman and type-
 http://localhost:3000/wordoftheday in the enter request URL section and press enter.
-You will get word of that data
+You will get word of that date.
 
 2.To perform operations on the database type-
 http://localhost:3000/words in the enter request URL section, use post method and pass data in the body and press enter.
+While inserting data, word and date fields are required.
 Similarly you can use put and delete to update the database.
 You can pass word,meaning of the word and date.
 The response will contain updated data.
 
-3.We have added code to respond whenever a wrong route is entered.
+3.I have added code to respond whenever a wrong route is entered.
 
 Author-Pushpak Arun Mhatre
